@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?:ital@1&display=swap" rel="stylesheet">
+    <title>Zakat”Calculator:</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner input-field">
+            <div class="row">
+                <h3 class="banner-text">"In the Name of Allah, the Merciful, the Most Beneficent."</h3>
+            </div>
+            <div class="row">
+                <h3 class="mt-5 banner-text">“The wealth of a person does not decrease by paying Zakat” (Sahih Bukhari):
+                </h3>
+            </div>
+            <div class="row">
+                <h1>Zakat;Calculator</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="input-field">
+                        <div class="input-field-1">
+                            <div>
+                                <form autocomplete="off">
+                                    <div class="inputBox">
+                                        <input id="input-1" type="number" required="required">
+                                        <span>Enter Cash in Your Home:</span>
+                                        <i></i>
+                                    </div>
+                                    <div class="inputBox">
+                                        <input id="input-2" type="number" required="required">
+                                        <span>Enter Gold(More then 7.5(Tolla)):</span>
+                                        <i></i>
+                                    </div>
+                                    <div class="inputBox">
+                                        <input id="input-3" type="number" required="required">
+                                        <span>Enter Silver(More then 52.5(Tolla)):</span>
+                                        <i></i>
+                                    </div>
+                                </form>
+                            </div>
+                            <div>
+                                <button class="glow-on-hover" onclick="calculate()">calculate</button>
+                            </div>
+                            <div class="input-field-text">
+                                <h3>Totle Worth of Gold: <span id="totle-g"></span></h3>
+                                <h3>Totle Worth of Silver: <span id="totle-s"></span></h3>
+                                <h3>Totle Cash in Your Home: <span id="totle-c"></span></h3>
+                                <h3>Totle Amount is: <span id="totle-a"></span></h3>
+                                <h3>Totle Zakat Amount is: <span id="totle-z"></span></h3>
+                            </div>
+                            <div>
+                                <button class="glow-on-hover mb-5">
+                                    <a href="https://www.saylaniwelfare.com/en/donate" target="_blank">Donate now
+                                    </a>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer mb-4">
+                <h2>© Copy Rights Reserved: made by Zeeshan Ahmed (SMIT);</h2>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
